@@ -1,0 +1,79 @@
+body {
+ background-color: rgb(7, 137, 38);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ max-width: 800px;
+ font-family: cursive; 
+}
+
+h1 {
+    color: dodgerblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 20px;
+line-height: 1.7;
+color: brown;
+}
+
+.highlight {
+    text-align: center;
+    color: green;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    font-weight: 600;
+    color: rgb(216, 196, 71);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(29, 38, 2);
+}
+
+header {
+    border: solid 3px;
+    padding: 40px;
+    background-image: url(head.jpg);
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,1);
+}
+
+section {
+    background-color: cornsilk;
+    padding: 30px;
+    margin-bottom: 40px;
+    border: solid 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,1);
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+section :hover {
+    cursor: pointer;
+    background-color: coral;
+}
+
+nav a:hover {
+    cursor: progress;
+    background-color: chartreuse;
+    box-shadow: 0 4px 8px rgba(0,0,0,1);
+    color: black;
+}
+
+li {
+    color: brown;
+}
